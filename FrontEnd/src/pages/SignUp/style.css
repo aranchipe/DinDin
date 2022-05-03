@@ -1,0 +1,107 @@
+.container {
+    background-image: url('../../assets/fundo.svg');
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    padding: 41px 100px;
+}
+
+.form {
+    width: 513px;
+    height: 750px;
+    background-color: white;
+    padding: 57px 32px 0 32px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main-sign-up {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.input {
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    width: 449px;
+    height: 63px;
+    background: #FFFFFF;
+    border: 1px solid #555555;
+    box-sizing: border-box;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 31px;
+}
+
+button {
+    all: unset;
+    margin: 0;
+    padding: 11px 47px;
+    box-sizing: border-box;
+    width: 449px;
+    height: 53px;
+    background: #7978D9;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'Rubik', sans-serif;
+    font-size: 14px;
+    line-height: 17px;
+    font-weight: 700;
+    margin-top: 7px;
+    margin-bottom: 8px;
+    cursor: pointer;
+}
+
+h2 {
+    font-family: 'Rubik', sans-serif;
+    font-size: 28px;
+    line-height: 33px;
+    font-weight: 500;
+    color: #7978D9;
+    margin-bottom: 42px;
+}
+
+label {
+    font-family: 'Rubik', sans-serif;
+    font-size: 18px;
+    line-height: 21px;
+    font-weight: 400;
+    color: #484848;
+    margin-bottom: 8px;
+}
+
+span {
+
+    color: #7978D9;
+}
+
+.link {
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    line-height: 17px;
+    color: #7B61FF;
+    text-decoration: none;
+}
+
+.titulo {
+    display: flex;
+    justify-content: center;
+}
+
+.erro {
+    color: red;
+}
+
+.logo-sign-up {
+    margin-bottom: 50px;
+}

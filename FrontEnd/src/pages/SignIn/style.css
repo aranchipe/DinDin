@@ -1,0 +1,62 @@
+.left {
+    width: 614px;
+    font-family: 'Rubik', sans-serif;
+    padding: 143px 0;
+}
+
+
+.main-login {
+    display: flex;
+    height: 535px;
+    display: flex;
+    justify-content: space-between;
+    width: calc(100vw - 300px);
+}
+
+.logo-login {
+    margin-bottom: 110px;
+}
+
+.cadastre-se {
+    width: 284px;
+    height: 52px;
+    cursor: pointer;
+}
+
+.titulo-login {
+    width: 614px;
+
+}
+
+.titulo-login h1 {
+    font-weight: 700;
+    font-size: 52px;
+    line-height: 62px;
+    color: white;
+    margin-bottom: 33px;
+}
+
+.texto-login {
+    width: 600px;
+    margin-bottom: 43px;
+}
+
+.texto-login p {
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 33px;
+    color: white;
+}
+
+.form-login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    width: 513px;
+    padding: 60px 32px 49px 32px;
+}
+
+.form-login h2 {
+    margin-bottom: 48px;
+}

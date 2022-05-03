@@ -1,0 +1,108 @@
+.transacao {
+    margin-top: 30px;
+    margin-bottom: 32px;
+    width: 964px;
+    display: flex;
+    padding: 0 20px;
+    position: relative;
+}
+
+.transacao span {
+    color: black;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+.data {
+    display: flex;
+    align-items: center;
+    width: 100px;
+    height: 17px;
+    margin-right: 45px;
+}
+
+.dia {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 69px;
+    height: 17px;
+    margin-right: 40px;
+
+}
+
+.descricao {
+    width: 227px;
+    height: 17px;
+    display: flex;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 30px;
+}
+
+
+.categoria {
+    display: flex;
+    align-items: center;
+    width: 118px;
+    height: 17px;
+}
+
+.valor-entrada {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 85px;
+    height: 17px;
+}
+
+.valor-saida {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 85px;
+    height: 17px;
+}
+
+.valor-entrada span {
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: #7B61FF;
+}
+
+.valor-saida span {
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FA8C10;
+}
+
+.data span {
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+.linha {
+    width: 964px;
+    height: 0;
+    border: 1px solid #E0E0E0;
+}
+
+.editar {
+    margin-left: 40px;
+    margin-right: 21.5px;
+    cursor: pointer;
+}
+
+.excluir {
+    cursor: pointer;
+}

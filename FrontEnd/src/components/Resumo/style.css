@@ -1,0 +1,93 @@
+.container-resumo {
+    width: 236px;
+    height: 196px;
+    background: #FAFAFA;
+    box-shadow: 0px 2px 11px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    position: absolute;
+    top: 111px;
+    right: 300px;
+    padding: 26px 33px;
+}
+
+.titulo-resumo {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    margin-bottom: 15px;
+    color: #2F2F2F;
+}
+
+.titulo-entrada {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 15px;
+    color: #2F2F2F;
+}
+
+.valor-entrada {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 15px;
+    color: #645FFB;
+
+}
+
+.titulo-saida {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 15px;
+    color: #2F2F2F;
+}
+
+.valor-saida {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 15px;
+    color: #FA8C10;
+}
+
+.titulo-saldo {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: #2F2F2F;
+}
+
+.valor-saldo {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #3A9FF1;
+}
+
+.entradas {
+    margin-bottom: 12px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.saidas {
+    margin-bottom: 19px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.saldo {
+    display: flex;
+    justify-content: space-between;
+}
+
+.linha-resumo {
+    width: 189px;
+    height: 0;
+    border: 1px solid #EAEAEA;
+    margin-bottom: 16px;
+}

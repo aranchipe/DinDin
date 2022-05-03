@@ -1,0 +1,129 @@
+.container-adicionar {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(61, 61, 61, 0.48);
+}
+
+.form-add-registro {
+    background-color: white;
+    width: 611px;
+    height: 879px;
+    border-radius: 20px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    padding: 61px 62px 48px 64px;
+}
+
+.close {
+    position: absolute;
+    top: 67px;
+    right: 64px;
+    cursor: pointer;
+}
+
+.botoes {
+    display: flex;
+}
+
+.botoes button {
+    all: unset;
+    margin: 0;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    width: 245px;
+    height: 60px;
+    cursor: pointer;
+}
+
+.botoes .btn-entrada-blue {
+    background: #3A9FF1;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    font-family: 'Rubik', sans-serif;
+}
+
+.botoes .btn-entrada-gray {
+    background: #B9B9B9;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    font-family: 'Rubik', sans-serif;
+}
+
+.botoes .btn-saida-red {
+    background: #FF576B;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    font-family: 'Rubik', sans-serif;
+
+}
+
+.botoes .btn-saida-gray {
+    background: #B9B9B9;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    font-family: 'Rubik', sans-serif;
+}
+
+.confirmar-add {
+    width: 236px;
+    height: 46px;
+    margin: 0 auto;
+}
+
+select {
+    width: 485px;
+    height: 63px;
+    border: 1px solid #555555;
+    box-sizing: border-box;
+    border-radius: 5px;
+    margin-bottom: 26px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.form-add-registro input {
+    width: 485px;
+    height: 63px;
+    border: 1px solid #555555;
+    box-sizing: border-box;
+    border-radius: 5px;
+    margin-bottom: 26px;
+}
+
+.titulo-adicionar {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 43px;
+    color: #000000;
+}
+
+.form-add-registro label {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    color: #484848;
+}

@@ -1,0 +1,64 @@
+.modal-excluir {
+    background: #E4F2FD;
+    border-radius: 4px;
+    width: 111px;
+    height: 46px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 7px 15px 8px 15px;
+    position: absolute;
+    top: 30px;
+    left: 730px;
+}
+
+
+.btn-modal-excluir .sim {
+    all: unset;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+    font-size: 9px;
+    line-height: 11px;
+    color: white;
+    margin: 0;
+    box-sizing: border-box;
+    width: 37px;
+    height: 15px;
+    background: #3A9FF1;
+    border-radius: 4px;
+    padding: 2px 10px;
+    margin-right: 3.5px;
+    cursor: pointer;
+}
+
+.btn-modal-excluir .nao {
+    all: unset;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+    font-size: 9px;
+    line-height: 11px;
+    color: white;
+    margin: 0;
+    box-sizing: border-box;
+    width: 37px;
+    height: 15px;
+    background: #FF576B;
+    border-radius: 4px;
+    padding: 2px 10px;
+    margin-left: 3.5px;
+    cursor: pointer;
+}
+
+.modal-excluir span {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 300;
+    font-size: 10px;
+    line-height: 12px;
+    color: black;
+}
+
+.seta {
+    position: absolute;
+    left: 95px;
+    bottom: 45px;
+}

@@ -1,0 +1,47 @@
+.container-perfil {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(61, 61, 61, 0.48);
+}
+
+.form-editar-perfil {
+    background-color: white;
+    width: 611px;
+    height: 879px;
+    border-radius: 20px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    padding: 61px 62px 48px 64px;
+    align-items: center;
+}
+
+.titulo-perfil {
+    font-family: 'Rubik', sans-serif;
+
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 43px;
+    color: #000000;
+    width: calc(611px - 160px);
+}
+
+.container-perfil label {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    color: #484848;
+}
+
+.container-perfil button {
+    margin-top: 50px;
+}
